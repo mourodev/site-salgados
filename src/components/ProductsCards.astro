@@ -2,20 +2,22 @@
 
 ---
 
-<h2 class="mb-4 text-center text-3xl font-bold text-red-600">
+<h2 class="mb-4 mt-20 text-center text-3xl font-bold text-red-600 md:text-4xl">
 	Salgados Fritos e Congelados: Sabor e Praticidade para Você!
 </h2>
-<p class="mb-8 text-center text-lg text-zinc-700">
+<p class="mb-8 text-center text-lg">
 	Escolha entre deliciosos salgados fritos, prontos para saborear, ou congelados, ideais para
 	preparar quando e onde quiser. Com uma variedade de sabores irresistíveis, nossos salgados são
 	perfeitos para festas, encontros ou aquele momento especial em família.
 </p>
 
-<div class="grid gap-6 sm:grid-cols-2">
+<div class="mt-20 grid gap-6 sm:grid-cols-1 md:grid-cols-2">
 	<!-- Card Fritos -->
-	<div class="rounded-lg border border-zinc-200 bg-white p-6 shadow-sm">
-		<h3 class="mb-4 text-xl font-semibold text-red-600">Salgados Fritos</h3>
-		<ul class="mb-4 list-disc pl-5 text-zinc-700">
+	<div
+		class="rounded-lg bg-red-600 p-6 text-white shadow-lg transition-transform duration-300 hover:scale-105"
+	>
+		<h3 class="mb-4 text-3xl font-semibold">Salgados Fritos</h3>
+		<ul class="mb-4 list-disc space-y-2 pl-5">
 			<li>Quibe</li>
 			<li>Mini Pizza</li>
 			<li>Coxinha</li>
@@ -23,17 +25,25 @@
 			<li>Croquete de Calabresa</li>
 			<li>Enroladinho de Salsicha</li>
 		</ul>
-		<p class="font-bold text-zinc-900">
-			25 unidades: R$ 15,00 <br />
-			50 unidades: R$ 25,00 <br />
-			100 unidades: R$ 45,00
-		</p>
+		<div class="grid grid-cols-1 gap-4 text-center">
+			<span class="rounded-md bg-red-50 px-4 py-2 font-bold text-red-600 shadow-md transition-all">
+				25 unidades: R$ 15,00
+			</span>
+			<span class="rounded-md bg-white px-4 py-2 font-bold text-red-600 shadow-md transition-all">
+				50 unidades: R$ 25,00
+			</span>
+			<span class="rounded-md bg-white px-4 py-2 font-bold text-red-600 shadow-md transition-all">
+				100 unidades: R$ 45,00
+			</span>
+		</div>
 	</div>
 
 	<!-- Card Congelados -->
-	<div class="rounded-lg border border-zinc-200 bg-white p-6 shadow-sm">
-		<h3 class="mb-4 text-xl font-semibold text-amber-400">Salgados Congelados</h3>
-		<ul class="mb-4 list-disc pl-5 text-zinc-700">
+	<div
+		class="rounded-lg bg-red-600 p-6 shadow-lg transition-transform duration-300 hover:scale-105"
+	>
+		<h3 class="mb-4 text-3xl font-semibold text-white">Salgados Congelados</h3>
+		<ul class="mb-4 list-disc space-y-2 pl-5 text-white">
 			<li>Quibe</li>
 			<li>Mini Pizza</li>
 			<li>Coxinha</li>
@@ -41,10 +51,16 @@
 			<li>Croquete de Calabresa</li>
 			<li>Enroladinho de Salsicha</li>
 		</ul>
-		<p class="font-bold text-zinc-900">
-			25 unidades: R$ 10,00 <br />
-			50 unidades: R$ 20,00 <br />
-			100 unidades: R$ 40,00
-		</p>
+		<div class="grid grid-cols-1 gap-4 text-center">
+			<span class="rounded-md bg-red-50 px-4 py-2 font-bold text-red-600 shadow-md transition-all">
+				25 unidades: R$ 10,00
+			</span>
+			<span class="rounded-md bg-red-50 px-4 py-2 font-bold text-red-600 shadow-md transition-all">
+				50 unidades: R$ 20,00
+			</span>
+			<span class="rounded-md bg-red-50 px-4 py-2 font-bold text-red-600 shadow-md transition-all">
+				100 unidades: R$ 40,00
+			</span>
+		</div>
 	</div>
 </div>

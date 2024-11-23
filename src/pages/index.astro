@@ -1,11 +1,12 @@
 ---
+import Cfooter from '../components/Cfooter.astro'
 import Hero from '../components/Hero.astro'
 import ProductsCards from '../components/ProductsCards.astro'
 import Layout from '../layouts/Layout.astro'
 ---
 
 <Layout title="Salgadinhos da Drica">
-	<div class="grid min-h-screen grid-rows-[auto_1fr_auto]">
+	<div class="grid min-h-screen grid-rows-[auto_1fr_auto] gap-16">
 		<header class="bg-red-600">
 			<div class="container mx-auto max-w-6xl px-6 sm:px-8">
 				<Hero />
@@ -16,6 +17,8 @@ import Layout from '../layouts/Layout.astro'
 				<ProductsCards />
 			</div>
 		</main>
-		<footer>footer</footer>
+		<footer>
+			<Cfooter />
+		</footer>
 	</div>
 </Layout>
